@@ -1,0 +1,21 @@
+name: flutter_connectivity_riverpod
+description: A flutter project that demonstrates how to update your app state based on connectivity changes.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: ">=2.15.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_riverpod: ^1.0.2
+  connectivity: ^3.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
